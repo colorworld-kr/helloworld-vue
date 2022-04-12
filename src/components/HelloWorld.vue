@@ -1,11 +1,14 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <add-new-file />
   </div>
 </template>
 
 <script>
+import AddNewFile from "./AddNewFile.vue";
 export default {
+  components: { AddNewFile },
   name: "HelloWorld",
   props: {
     msg: String,
