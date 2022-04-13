@@ -1,5 +1,13 @@
 # helloworld-vue
 
+## Project init 
+git 먼저 초기화한 후 프로젝트 폴더 상위 폴더로 이동
+```
+./helloworld-vue $ cd ..
+./ $ vue create hellowworld-vue
+```
+Merge 옵션 선택
+
 ## Project setup
 ```
 npm install
